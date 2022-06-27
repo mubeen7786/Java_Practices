@@ -67,6 +67,7 @@ class Goat extends Animal
         System.out.println("Pattern:  " + goatpatteren);
         System.out.println("Weight: " + goatweight);
         System.out.println("Age:  " + goatage);
+        System.out.println("HI im in display funcntion");
     }
 }
 
@@ -77,7 +78,7 @@ Goat myobj = new Goat();
 //myobj.setColor("Black");
 //        System.out.println(myobj.getcolor());
         myobj.setvalues("Black" , 2, 4, 32 ,"Tanveerkinasal" , "colorfull" , 55, 2 );
-
         myobj.display();
     }
+
 }
