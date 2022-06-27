@@ -68,6 +68,7 @@ class Goat extends Animal
         System.out.println("Weight: " + goatweight);
         System.out.println("Age:  " + goatage);
         System.out.println("HI im in display funcntion");
+        System.out.println("HI im in display New");
     }
 }
 
